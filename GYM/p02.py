@@ -1,0 +1,5 @@
+N = int(input())
+C = list(map(int, input().split()))
+A, B = map(int, input().split())
+ans = sum(C[A:B+1])
+print(ans)
